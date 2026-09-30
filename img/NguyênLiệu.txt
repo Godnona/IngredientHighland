@@ -1,0 +1,53 @@
+Phin đen đá	|
+Nguyên liệu	|S	|M	|L
+Cà phê (Cf)	|40 ml	|50 ml	|60 ml
+Đường		|15 ml	|20 ml	|25 ml
+Đá		|200 g	|260 g	|400 g
+
+
+Phin sữa đá	|
+Nguyên liệu	|S	|M	|L
+Cà phê (Cf)	|40 ml	|50 ml	|60 ml
+Sữa đặc		|30 ml	|40 ml	|45 ml
+Đá		|200 g	|260 g	|400 g
+
+
+Bạc xỉu đá	|
+Nguyên liệu	|S	|M	|L
+Sữa đặc		|40 ml	|50 ml	|60 ml
+Cà phê (Cf)	|20 ml	|25 ml	|30 ml
+Nước nóng	|20 ml	|25 ml	|30 ml
+Đá		|200 g	|260 g	|400 g
+
+
+Trà sen vàng đá	|
+Nguyên liệu	|S	|M	|L
+Sen		|20 g	|25 g	|30 g
+Số hạt sen	|10 hạt	|12 hạt	|15 hạt
+Đường		|30 ml	|40 ml	|45 ml
+Trà ô long	|100 ml	|130 ml	|150 ml
+Đá		|150 g	|200 g	|220 g
+Kem		|50 g	|65 g	|75 g
+Cn		|15 g	|20 g	|25 g
+
+
+Trà thanh đào	|
+Nguyên liệu	|S	|M	|L
+Syrup sả	|15 ml	|15 ml	|20 ml
+Syrup đào	|15 ml	|20 ml	|25 ml
+Trà đào		|100 ml	|130 ml	|150 ml
+Đá		|220 g	|280 g	|300 g
+Đào miếng	|30 g	|40 g	|40 g
+Sả		|5 g	|5 g	|5 g
+Sả lát		|3 lát	|3 lát	|3 lát
+
+
+Trà thạch đào	|
+Nguyên liệu	|S	|M	|L
+Đường + Ndc	|30 ml	|40 ml	|45 ml
+Trà đào		|100 ml	|130 ml	|150 ml
+Đá		|150 g	|200 g	|220 g
+Thạch đào	|50 g	|65 g	|75 g
+Số sợi thạch	|9 sợi	|12 sợi	|15 sợi
+Đào miếng	|30 g	|40 g	|40 g
+Số miếng đào	|3 miếng|4 miếng|4 miếng

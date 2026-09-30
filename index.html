@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ingredient Highland</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="app" class="app">
+      <section id="screen-main" class="screen screen-main is-active" aria-labelledby="main-title">
+        <div class="brand-mark">Highlands Counter</div>
+        <div class="main-stage">
+          <div class="drink-stack" aria-hidden="true">
+            <img src="img/Res/TràThanhĐào.jpg" alt="" />
+            <img src="img/Res/BạcXỉuĐá.jpg" alt="" />
+            <img src="img/Res/TràSenVàngĐá.jpg" alt="" />
+          </div>
+          <div class="main-copy">
+            <p class="eyebrow">Pha chế theo đúng công thức</p>
+            <h1 id="main-title">Ingredient Highland</h1>
+            <p class="subtitle">Chọn size, lấy nguyên liệu, nhập định lượng và phục vụ khách trước khi quầy quá tải.</p>
+          </div>
+        </div>
+        <div class="main-actions">
+          <button id="start-button" class="button primary" type="button">Start</button>
+        </div>
+      </section>
+
+      <section id="screen-select" class="screen" aria-labelledby="select-title">
+        <header class="topbar">
+          <button class="icon-button" data-action="main" type="button" aria-label="Về main menu">‹</button>
+          <div>
+            <p class="eyebrow">Chọn màn chơi</p>
+            <h2 id="select-title">Menu đồ uống</h2>
+          </div>
+        </header>
+        <div class="combat-band">
+          <div>
+            <p class="eyebrow">Endless shift</p>
+            <h3>Thực chiến</h3>
+            <p>Khách gọi món ngẫu nhiên, mỗi cốc có 5 phút. Điểm chỉ dừng khi bạn rời ca.</p>
+          </div>
+          <button id="combat-button" class="button accent" type="button">Vào ca</button>
+        </div>
+        <div id="level-list" class="level-list"></div>
+      </section>
+
+      <section id="screen-game" class="screen screen-game" aria-labelledby="game-title">
+        <header class="game-topbar">
+          <button class="icon-button" data-action="select" type="button" aria-label="Về chọn màn">‹</button>
+          <div class="game-title-block">
+            <p id="mode-label" class="eyebrow">Màn chơi</p>
+            <h2 id="game-title">Pha chế</h2>
+          </div>
+          <div id="timer-pill" class="timer-pill" hidden>05:00</div>
+        </header>
+
+        <section class="customer-zone" aria-label="Đơn khách">
+          <div class="customer-avatar" aria-hidden="true">
+            <span></span>
+          </div>
+          <div id="order-bubble" class="order-bubble"></div>
+        </section>
+
+        <section class="size-zone" aria-label="Chọn size">
+          <p>Size ly</p>
+          <div id="size-buttons" class="segmented"></div>
+        </section>
+
+        <section class="workbench">
+          <div class="cup-area">
+            <div class="cup-visual" aria-hidden="true">
+              <div class="cup-fill"></div>
+            </div>
+            <div>
+              <h3>Ly đang pha</h3>
+              <ul id="cup-list" class="cup-list"></ul>
+            </div>
+          </div>
+
+          <div id="pour-panel" class="pour-panel" hidden>
+            <button id="close-pour" class="close-button" aria-label="Hủy nguyên liệu">×</button>
+            <p id="pour-name" class="pour-name"></p>
+            <label>
+              Tỉ lệ
+              <span class="amount-row">
+                <input id="amount-input" type="number" inputmode="numeric" min="0" step="1" placeholder="0" />
+                <span id="unit-label">ml</span>
+              </span>
+            </label>
+            <button id="pour-button" class="button primary small" type="button">Đổ vào</button>
+          </div>
+
+          <div class="actions-row">
+            <button id="reset-button" class="button ghost" type="button">Hủy món</button>
+            <button id="submit-button" class="button primary" type="button">Hoàn thành</button>
+          </div>
+
+          <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="ingredient-zone" aria-label="Quầy nguyên liệu">
+          <div class="section-heading">
+            <h3>Quầy nguyên liệu</h3>
+            <p>Bấm nguyên liệu rồi nhập số lượng.</p>
+          </div>
+          <div id="ingredient-grid" class="ingredient-grid"></div>
+        </section>
+      </section>
+
+      <dialog id="result-dialog" class="result-dialog">
+        <div class="dialog-body">
+          <img id="result-image" src="" alt="" />
+          <p id="result-kicker" class="eyebrow">Hoàn thành</p>
+          <h2 id="result-title">Chuẩn vị</h2>
+          <p id="result-text"></p>
+          <div id="result-actions" class="dialog-actions"></div>
+        </div>
+      </dialog>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
